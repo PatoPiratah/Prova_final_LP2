@@ -1,0 +1,46 @@
+{
+  "pecas": [
+    {
+      "nome": "Retrovisor",
+      "modelo": "Palio",
+      "categoria": "acessorio",
+      "descricao": "",
+      "id": 1
+    },
+    {
+      "nome": "Espelho",
+      "modelo": "Chevete",
+      "categoria": "acessorio",
+      "descricao": "",
+      "id": 2
+    },
+    {
+      "nome": "Calota",
+      "modelo": "Corsa",
+      "categoria": "acessorio",
+      "descricao": "",
+      "id": 3
+    },
+    {
+      "nome": "espelho",
+      "modelo": "",
+      "categoria": "",
+      "descricao": "vidro espelhado",
+      "id": 4
+    },
+    {
+      "nome": "espelho",
+      "modelo": "",
+      "categoria": "",
+      "descricao": "vidro espelhado",
+      "id": 5
+    },
+    {
+      "nome": "calota",
+      "modelo": "Uno",
+      "categoria": "Acessorios",
+      "descricao": "roda",
+      "id": 6
+    }
+  ]
+}
