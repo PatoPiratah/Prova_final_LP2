@@ -10,13 +10,15 @@ const List = () => {
         httpConfig(id, "DELETE");
     }
 
-    const handleNavigate = () => {
+    const navigate = useNavigate();
+    const handleNavigate = (id) => {
         navigate("/form");
     }
 
   return (
     <div>
-        <button >Voltar</button>
+        <button onClick={() => handleNavigate()}>
+            Voltar ao formulario</button>
 
       <table>
         <thead>

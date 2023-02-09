@@ -23,12 +23,16 @@ const Form = () => {
             console.log(data);
     }
 
-    const handleNavigate = () => {
-        navigate("/list");
+    const navigate = useNavigate();
+    const handleNavigate = (id) => {
+        navigate("/");
     }
 
   return (
     <div>
+        <button onClick={() => handleNavigate()}>
+            Voltar a lista</button>
+
       <form onSubmit={handleSubmit}>
         <label>
             <span>nome</span>
